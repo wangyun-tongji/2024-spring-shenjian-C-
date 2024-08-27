@@ -3,7 +3,7 @@
 const double pi = 3.14159;
 int main()
 {
-	printf("ÇëÊäÈë°ë¾¶ºÍ¸ß¶È\n");
+	printf("è¯·è¾“å…¥åŠå¾„å’Œé«˜åº¦\n");
 	double radius;
 	double height;
 	scanf(" %lf %lf", &radius, &height);
@@ -12,15 +12,15 @@ int main()
 	double ball_area=4*pi* radius * radius;
 	double ball_volume= 4 * pi * radius * radius*radius/3;
 	double cylindrical_volume = pi * radius * radius * height;
-	printf("Ô²ÖÜ³¤     : ");
+	printf("åœ†å‘¨é•¿     : ");
 	printf("%.2lf\n",circumference);
-	printf("Ô²Ãæ»ı     : ");
+	printf("åœ†é¢ç§¯     : ");
 	printf("%.2lf\n",circular_area);
-	printf("Ô²Çò±íÃæ»ı : ");
+	printf("åœ†çƒè¡¨é¢ç§¯ : ");
 	printf("%.2lf\n",ball_area);
-	printf("Ô²ÇòÌå»ı   : ");
+	printf("åœ†çƒä½“ç§¯   : ");
 	printf("%.2lf\n",ball_volume);
-	printf("Ô²ÖùÌå»ı   : ");
+	printf("åœ†æŸ±ä½“ç§¯   : ");
 	printf("%.2lf\n",circular_area);
 	return 0;
 }
