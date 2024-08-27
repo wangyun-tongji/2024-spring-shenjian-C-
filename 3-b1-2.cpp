@@ -6,17 +6,17 @@ int main()
 {
 	double radius;
 	double height;
-	cout << "ÇëÊäÈë°ë¾¶ºÍ¸ß¶È" << endl;
+	cout << "è¯·è¾“å…¥åŠå¾„å’Œé«˜åº¦" << endl;
 	cin >> radius >> height;
 	double  circumference = 2 * pi * radius;
 	double circular_area = pi * radius * radius;
 	double ball_area = 4 * pi * radius * radius;
 	double ball_volume = 4 * pi * radius * radius * radius / 3;
 	double cylindrical_volume = pi * radius * radius * height;
-	cout << "Ô²ÖÜ³¤     " << ":" << " " << fixed << setprecision(2) << circumference << endl;
-	cout << "Ô²Ãæ»ý     " << ":" << " " << fixed << setprecision(2) << circular_area << endl;
-	cout << "Ô²Çò±íÃæ»ý " << ":" << " " << fixed << setprecision(2) << ball_area << endl;
-	cout << "Ô²ÇòÌå»ý   " << ":" << " " << fixed << setprecision(2) << ball_volume << endl;
-	cout << "Ô²ÖùÌå»ý   " << ":" << " " << fixed << setprecision(2) << cylindrical_volume << endl;
+	cout << "åœ†å‘¨é•¿     " << ":" << " " << fixed << setprecision(2) << circumference << endl;
+	cout << "åœ†é¢ç§¯     " << ":" << " " << fixed << setprecision(2) << circular_area << endl;
+	cout << "åœ†çƒè¡¨é¢ç§¯ " << ":" << " " << fixed << setprecision(2) << ball_area << endl;
+	cout << "åœ†çƒä½“ç§¯   " << ":" << " " << fixed << setprecision(2) << ball_volume << endl;
+	cout << "åœ†æŸ±ä½“ç§¯   " << ":" << " " << fixed << setprecision(2) << cylindrical_volume << endl;
 	return 0;
 }
